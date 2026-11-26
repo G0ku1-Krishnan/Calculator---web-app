@@ -8,14 +8,15 @@
 
 /* Root variables – change these to adjust the theme */
 :root {
-  --bg-color: #1e1e2f;
+  --bg-color: #c4e811;
   --calc-bg: #27293d;
   --button-bg: #3b3e58;
   --button-bg-hover: #4a4d70;
-  --button-primary-bg: #ff9500; /* equals button */
+  --button-primary-bg: #ff9500;
+  /* equals button */
   --button-primary-bg-hover: #ffa733;
   --text-color: #ffffff;
-  --display-bg: #1c1c2b;
+  --display-bg: #d81111;
   --border-radius: 12px;
   --font-family: 'Inter', Arial, sans-serif;
 }
@@ -93,7 +94,16 @@ body {
 }
 
 @media (max-width: 400px) {
-  .calculator { width: 90%; }
-  .display { font-size: 1.5rem; }
-  .btn { font-size: 1rem; padding: 12px; }
+  .calculator {
+    width: 90%;
+  }
+
+  .display {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 12px;
+  }
 }
